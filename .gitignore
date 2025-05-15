@@ -1,0 +1,45 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Java compiled output
+*.class
+*.jar
+*.war
+*.ear
+
+# Build tool output directories
+/target/  # Maven
+/build/   # Gradle
+/out/     # IntelliJ default output
+
+# Dependency directories
+/lib/     # If you manually manage dependencies
+/.m2/     # Local Maven repository (optional, for user-specific settings)
+
+# Log files
+*.log
+
+# System files
+.DS_Store           # macOS
+Thumbs.db           # Windows
+*.swp              # Vim swap files
+
+# Runtime data
+*.pid
+*.seed
+*.rdb
+
+# Environment variables or sensitive files
+.env
+*.properties       # If it contains sensitive info (e.g., database credentials)
+config.properties
+
+# Miscellaneous
+*.bak
+*.tmp
+*.backup
+
+# Optional: Ignore local test or temporary files
+/test-output/
+/temp/
